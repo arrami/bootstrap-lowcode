@@ -1,0 +1,47 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 600px) {
+    header img {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    z-index: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("bg.svg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins 2', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+
+.categories {
+    background-image: linear-gradient(86deg, #2D2D2A 70%, #4C4C47 84%);
+}
+
+.decouverte {
+    background-image: linear-gradient(86deg, #ccfaec 70%, #fff 84%);
+}
+
+.bg-red {
+    background-color: #AD2831;
+}
+
+.card-body {
+    min-height: 10em;
+}
